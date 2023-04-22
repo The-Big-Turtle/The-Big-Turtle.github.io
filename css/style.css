@@ -15,6 +15,37 @@
 	color: #ffffff;
 }
 
+.hero-section-images {
+	border-radius: 10px;
+}
+
+#carouselExampleControls > .carousel-item {
+	position: relative;
+}
+#carouselExampleControls h2 {
+	font-size: 8rem;
+	position: absolute;
+	left: 5%;
+	bottom: 10%;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 0px 0px 50px #000;
+}
+
+@media (min-width: 992px) {
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		height: 2rem;
+		width: 2rem;
+	}
+	.carousel-control-prev-icon {
+		margin-left: -120%;
+	}
+	.carousel-control-next-icon {
+		margin-right: -120%;
+	}
+}
+
 a:focus,
 button:focus {
 	outline: none !important;
@@ -5042,6 +5073,13 @@ html [class*='section-'].section-bottom-0 {
 @media (min-width: 992px) {
 	.main-section {
 		padding: 220px 0 50px 0;
+	}
+}
+
+@media (min-width: 992px) {
+	.carousel-section {
+		padding-left: 6%;
+		padding-right: 6%;
 	}
 }
 
